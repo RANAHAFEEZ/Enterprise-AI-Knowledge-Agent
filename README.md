@@ -17,9 +17,8 @@
 7. [Installation & Setup](#installation--setup)
 8. [How to Use](#how-to-use)
 9. [Advanced Features](#advanced-features)
-10. [Screenshots](#screenshots)
-11. [Troubleshooting](#troubleshooting)
-12. [Developer Info](#developer-info)
+10. [Troubleshooting](#troubleshooting)
+11. [Developer Info](#developer-info)
 
 ---
 
@@ -249,10 +248,7 @@ Enterprise-AI-Knowledge-Agent/
 ├── requirements.txt           # Python dependencies
 ├── .env.example               # Environment template
 ├── mypdftemplate.pdf          # Sample PDF for testing
-├── README.md                  # Documentation
-└── screenshots/
-    ├── screen1.png            # User interface screenshot
-    └── screen2.png            # Chat interaction screenshot
+└── README.md                  # Documentation
 ```
 
 ---
@@ -416,20 +412,6 @@ Create isolated conversation sessions:
 config = {"configurable": {"session_id": "user_123"}}
 response = rag_chain.invoke({"question": query}, config=config)
 ```
-
----
-
-## 📸 Screenshots
-
-### **Screenshot 1: Main Interface**
-![Enterprise AI Knowledge Agent - Main Interface](screenshots/screen1.png)
-
-*The main interface showing the Streamlit app with upload capability and question input box. Users can upload PDF documents and ask questions about their content.*
-
-### **Screenshot 2: Chat Interaction**
-![Enterprise AI Knowledge Agent - Chat Response](screenshots/screen2.png)
-
-*Demonstrates the system's ability to answer questions about uploaded documents with detailed, contextual responses sourced from the PDF content.*
 
 ---
 
