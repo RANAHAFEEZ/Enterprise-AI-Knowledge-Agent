@@ -17,8 +17,9 @@
 7. [Installation & Setup](#installation--setup)
 8. [How to Use](#how-to-use)
 9. [Advanced Features](#advanced-features)
-10. [Troubleshooting](#troubleshooting)
-11. [Developer Info](#developer-info)
+10. [Screenshots](#screenshots)
+11. [Troubleshooting](#troubleshooting)
+12. [Developer Info](#developer-info)
 
 ---
 
@@ -248,7 +249,10 @@ Enterprise-AI-Knowledge-Agent/
 ├── requirements.txt           # Python dependencies
 ├── .env.example               # Environment template
 ├── mypdftemplate.pdf          # Sample PDF for testing
-└── README.md                  # Documentation
+├── README.md                  # Documentation
+└── screenshots/
+    ├── screen1.png            # User interface and query example
+    └── screen2.png            # Chat interaction and responses
 ```
 
 ---
@@ -415,7 +419,21 @@ response = rag_chain.invoke({"question": query}, config=config)
 
 ---
 
-## 🐛 Troubleshooting
+## � Screenshots
+
+### **Screenshot 1: Main Interface & Query**
+![Enterprise AI Knowledge Agent - Main Interface](screenshots/screen1.png)
+
+*The main interface showing the Enterprise AI Knowledge Agent Streamlit app. Users can ask questions about their uploaded PDF documents, and the AI retrieves relevant information and provides detailed answers based on the document content.*
+
+### **Screenshot 2: Chat Interaction & Response**
+![Enterprise AI Knowledge Agent - Chat Response](screenshots/screen2.png)
+
+*Demonstrates the conversational capability of the system. Shows follow-up questions with context-aware responses, utilizing the conversation history to provide accurate and relevant answers.*
+
+---
+
+## �🐛 Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
